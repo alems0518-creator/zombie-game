@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: zombie-game
-          image: tlsalstjq/zombie-game:74d748cb4eeb89b60906157905a9e32a8c97ff46
+          image: tlsalstjq/zombie-game:f866ac3c1f56dc536091fc457c11ddc786508f73
           ports:
             - containerPort: 80
           readinessProbe:
